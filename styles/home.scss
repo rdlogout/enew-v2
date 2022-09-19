@@ -1,0 +1,107 @@
+#services{
+    background-color: #070E20;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    #service-line{
+        height: 4px;
+        width: 65px;
+        border-radius: 30px;
+        margin: auto;
+    }
+.service-icon{
+    font-size: 45px !important;
+}
+    .service-card{
+        
+        background-color: #0B152E;
+        padding: 50px 30px 45px 30px;
+        border-radius: 10px;
+        border: 1px solid #0B152E;
+        transition: border 400ms;
+        &:hover{
+            border-color: var(--bs-primary);
+        }
+        
+    p {
+            display: -webkit-box;
+            max-width: 200px;
+            -webkit-line-clamp: 6;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    }
+}
+
+#map-frame{
+    border-radius: 17% 83% 73% 27% / 15% 35% 65% 85%;
+    overflow: hidden;
+}
+
+#contact{
+    height: 90vh;
+    width: 100%;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position:100% center;
+    background-image: url('/world-map.png');
+}
+
+#team{
+    position: relative;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    #dot-1{
+        position: absolute;
+        bottom: 50px;
+        left: 10px;
+        max-width: 150px;
+    }
+    #quote{
+position: absolute;
+right: 0;
+bottom: -10px;
+font-size: 50px;
+    }
+
+    .member-card{
+        position: relative;
+        overflow: hidden;
+        padding: 35px 26px;
+        box-shadow: 0 0px 14px rgba(0, 0, 0, 0.07);
+        margin: 10px;
+        background-color: white;
+        img{
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            box-shadow: 1px 8px 13px 5px rgb(0 0 0 / 7%);
+
+        }
+        .title{
+            font-size: 21px;
+            color: #252525;
+            font-weight: 800;
+            line-height: 30px;
+        }
+    }
+}
+#team-container{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.01);}
+#company{
+    top: -80px;
+    width: 100%;
+    position: absolute;
+    .container{
+        padding: 50px 50px 50px 50px;
+        background-color: var(--bs-secondary);
+
+    }
+}
