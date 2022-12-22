@@ -5,16 +5,19 @@ const HeaderTopBar = () => {
   const items = [
     {
       icon: <BiMapPin />,
-      value: "5457 Twin Knolls Road Suite 300, Columbia",
+      value: "13085 Morris Rd, Unit 2104, ALPHARETTA GA 30004",
+      href: "https://maps.google.com/maps?ll=34.098493,-84.259139&z=13&t=m&hl=en-US&gl=US&mapclient=embed&q=13085%20Morris%20Rd%20%232104%20Alpharetta%2C%20GA%2030004%20USA",
     },
     {
       icon: <FiMail />,
-      value: "info@enewvision.com",
+      value: "hr@rallytechnologies.llc",
+      href: "mailto:hr@rallytechnologies.llc",
       className: "flex-grow-1",
     },
     {
       icon: <BiSupport />,
-      value: "410-988-2355",
+      href: "tel:847-777-9638",
+      value: "847-777-9638",
     },
   ];
 
@@ -26,7 +29,13 @@ const HeaderTopBar = () => {
             <Col sm={`auto ${s.className || ""}`}>
               <div className="d-flex align-items-center">
                 <span className="text-primary">{s.icon}</span>
-                <p className="mb-0 ms-2 font-14">{s.value}</p>
+                <a
+                  target="_blank"
+                  href={s.href}
+                  className="text-decoration-none mb-0 ms-2 font-14 text-secondary"
+                >
+                  {s.value}
+                </a>
               </div>
             </Col>
           ))}

@@ -11,7 +11,7 @@ const ContactComponent = () => {
               width="100%"
               height="500"
               id="map-frame"
-              src="https://maps.google.com/maps?q=5457%20Twin%20Knolls%20Road%20Suite%20300%20Columbia%2021045%20MD&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+              src="https://maps.google.com/maps?q=13085 Morris Rd, Unit 2104, ALPHARETTA GA 30004&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
               f
               frameBorder="0"
               scrolling="no"
@@ -77,7 +77,7 @@ const offices = [
     icon: <BiHomeAlt />,
     content: (
       <span className="text-dark opacity-75 text-decoration-none">
-        5457 Twin Knolls Road Suite 300, Columbia 21045, MD
+        13085 Morris Rd, Unit 2104, ALPHARETTA GA 30004
       </span>
     ),
   },
@@ -86,9 +86,9 @@ const offices = [
     content: (
       <a
         className="text-dark opacity-75 text-decoration-none"
-        href="tel:410-988-2355"
+        href="tel:847-777-9638"
       >
-        410-988-2355
+        847-777-9638
       </a>
     ),
   },
@@ -97,9 +97,9 @@ const offices = [
     content: (
       <a
         className="text-dark opacity-75 text-decoration-none"
-        href="mailto:info@enewvision.com"
+        href="mailto:hr@rallytechnologies.llc"
       >
-        info@enewvision.com
+        hr@rallytechnologies.llc
       </a>
     ),
   },

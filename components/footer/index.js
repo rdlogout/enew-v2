@@ -18,10 +18,10 @@ const FooterComponent = () => {
         <Container className="py-5">
           <Row>
             <Col sm="5">
-              <h1 className="text-white fs-3 fw-800">ENewVision</h1>
-              <p className="text-white opacity-50">
+              <h1 className="text-white fs-3 fw-800">RALLY TECHNOLOGIES</h1>
+              <p className="text-white opacity-50 text-capitalize">
                 We are a leading IT(Information Technology) consulting and
-                services company In Columbia, MD, USA.
+                services company In Alpharetta, GA, USA.
               </p>
               <div className="feature">
                 Office
@@ -106,7 +106,7 @@ const FooterComponent = () => {
           <p className="my-2">
             {new Date().getFullYear()} © All Rights Reserved & Made With{" "}
             <FaHeart className="text-danger mx-1 mb-1" />{" "}
-            <span className="text-primary fw-600">Enewvision</span>
+            <span className="text-primary fw-600">RALLY TECHNOLOGIES LLC</span>
           </p>
         </div>
       </div>
@@ -147,7 +147,7 @@ const services = [
     href: "/",
   },
   {
-    title: "Application Management",
+    title: "Business Analyst",
     href: "/",
   },
   {
@@ -184,7 +184,7 @@ const offices = [
     icon: <BiHomeAlt />,
     content: (
       <span className="text-white opacity-75 text-decoration-none">
-        5457 Twin Knolls Road Suite 300, Columbia 21045, MD
+        13085 Morris Rd, Unit 2104, ALPHARETTA GA 30004
       </span>
     ),
   },
@@ -193,9 +193,9 @@ const offices = [
     content: (
       <a
         className="text-white opacity-75 text-decoration-none"
-        href="tel:410-988-2355"
+        href="tel:847-777-9638"
       >
-        410-988-2355
+        847-777-9638
       </a>
     ),
   },
@@ -204,9 +204,9 @@ const offices = [
     content: (
       <a
         className="text-white opacity-75 text-decoration-none"
-        href="mailto:info@enewvision.com"
+        href="mailto:hr@rallytechnologies.llc"
       >
-        info@enewvision.com
+        hr@rallytechnologies.llc
       </a>
     ),
   },

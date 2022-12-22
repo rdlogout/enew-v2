@@ -13,7 +13,7 @@ const IndexPage = () => {
       <HomeBanner />
       <HomeServices />
       <ContactComponent />
-      <TeamComponent />
+      {/* <TeamComponent /> */}
       <FooterComponent />
     </div>
   );

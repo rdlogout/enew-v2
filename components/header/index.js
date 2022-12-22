@@ -7,8 +7,10 @@ const HeaderComponent = () => {
       <HeaderTopBar />
       <Navbar>
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="mx-auto">
+          <Navbar.Brand href="/" className="text-primary fw-700">
+            RALLY TECHNOLOGIES
+          </Navbar.Brand>
+          <Nav className="mx-auto fw-500">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#features">Services</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>

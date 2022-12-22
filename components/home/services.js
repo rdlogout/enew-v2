@@ -59,7 +59,7 @@ const HomeServices = () => {
 const items = [
   {
     title: "Banking & Financial Services",
-    body: "Enewvision offers innovative and custom technology solutions to local and global banks and financial services providers. We impart the competitive edge to each client’s business, to keep them ahead of competition and help them to provide best-in-the-class services to their customers.",
+    body: "RALLY TECHNOLOGIES offers innovative and custom technology solutions to local and global banks and financial services providers. We impart the competitive edge to each client’s business, to keep them ahead of competition and help them to provide best-in-the-class services to their customers.",
     icon: <RiBankLine />,
   },
   {
@@ -69,7 +69,7 @@ const items = [
   },
   {
     title: "Government",
-    body: "Enewvision offers affordable, reliable and value-driven solutions and services to the federal, state, and local governments.",
+    body: "RALLY TECHNOLOGIES offers affordable, reliable and value-driven solutions and services to the federal, state, and local governments.",
     icon: <RiGovernmentLine />,
   },
   {
