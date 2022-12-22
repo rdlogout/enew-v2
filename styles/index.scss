@@ -1,41 +1,44 @@
 $theme-colors: (
-    "primary": #2782f9,
-    "secondary": #2C365E,
-    "blue": #233a95,
-    "success": #00b853,
-    "info": #2bbef9,
-    "white": #ffffff,
-    "warning": #ffcd00,
-    "danger": #ea2b0f,
-    "light": #f7f8fd,
-    "dark": #3e4152,
-    "grey":#808080,
-    "light-grey": #e8e8e8,
+  "primary": #2782f9,
+  "secondary": #2c365e,
+  "blue": #233a95,
+  "success": #00b853,
+  "info": #2bbef9,
+  "white": #ffffff,
+  "warning": #ffcd00,
+  "danger": #ea2b0f,
+  "light": #f7f8fd,
+  "dark": #3e4152,
+  "grey": #808080,
+  "light-grey": #e8e8e8,
 );
-@import "bootstrap/scss/bootstrap.scss";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-@import './banner.scss';@import './header.scss';
-@import './utility.scss';@import './home.scss';
 
+//import bootstrap
+@import "~bootstrap/scss/bootstrap";
+// @import "~node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import "./banner.scss";
+@import "./header.scss";
+@import "./utility.scss";
+@import "./home.scss";
 
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
-.container{
-    max-width: 1200px;
-}
-
-.form-control{
-    height: 3rem;
-    background-color: var(--bs-light);
-    border-radius:2px;
-    font-size: 14px;
-    font-weight: 500;
-    box-shadow: none !important;
-    border:1px solid var(--bs-light-grey)
-
+.container {
+  max-width: 1200px;
 }
 
-textarea.form-control{
-    min-height: 80px;
+.form-control {
+  height: 3rem;
+  background-color: var(--bs-light);
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: none !important;
+  border: 1px solid var(--bs-light-grey);
+}
+
+textarea.form-control {
+  min-height: 80px;
 }
