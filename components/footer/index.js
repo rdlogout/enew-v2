@@ -184,7 +184,7 @@ const offices = [
     icon: <BiHomeAlt />,
     content: (
       <span className="text-white opacity-75 text-decoration-none">
-        13085 Morris Rd, Unit 2104, ALPHARETTA GA 30004
+        13085 Morris Rd, Unit, ALPHARETTA GA 30004
       </span>
     ),
   },

@@ -81,22 +81,22 @@ const items = [
 
 const records = [
   {
-    title: "100",
+    title: "000",
     body: "Happy Customers",
     icon: <AiOutlineBulb />,
   },
   {
-    title: "101",
+    title: "000",
     body: "Winning Awards",
     icon: <AiOutlineTrophy />,
   },
   {
-    title: "102",
+    title: "000",
     body: "Industries Served",
     icon: <TbBuildingFactory />,
   },
   {
-    title: "103",
+    title: "000",
     body: "Project Completed",
     icon: <BsBookmarkCheck />,
   },

@@ -5,8 +5,8 @@ const HeaderTopBar = () => {
   const items = [
     {
       icon: <BiMapPin />,
-      value: "13085 Morris Rd, Unit 2104, ALPHARETTA GA 30004",
-      href: "https://maps.google.com/maps?ll=34.098493,-84.259139&z=13&t=m&hl=en-US&gl=US&mapclient=embed&q=13085%20Morris%20Rd%20%232104%20Alpharetta%2C%20GA%2030004%20USA",
+      value: "13085 Morris Rd, Unit, ALPHARETTA GA 30004",
+      href: "https://maps.google.com/maps?ll=34.098493,-84.259139&z=13&t=m&hl=en-US&gl=US&mapclient=embed&q=13085%20Morris%20Rd%20%23%20Alpharetta%2C%20GA%2030004%20USA",
     },
     {
       icon: <FiMail />,

@@ -11,7 +11,7 @@ const ContactComponent = () => {
               width="100%"
               height="500"
               id="map-frame"
-              src="https://maps.google.com/maps?q=13085 Morris Rd, Unit 2104, ALPHARETTA GA 30004&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+              src="https://maps.google.com/maps?q=13085 Morris Rd, Unit, ALPHARETTA GA 30004&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
               f
               frameBorder="0"
               scrolling="no"
@@ -77,7 +77,7 @@ const offices = [
     icon: <BiHomeAlt />,
     content: (
       <span className="text-dark opacity-75 text-decoration-none">
-        13085 Morris Rd, Unit 2104, ALPHARETTA GA 30004
+        13085 Morris Rd, Unit, ALPHARETTA GA 30004
       </span>
     ),
   },
