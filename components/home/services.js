@@ -35,7 +35,7 @@ const HomeServices = () => {
             </Col>
           ))}
         </Row>
-        <Row>
+        {/* <Row>
           {records.map((s) => (
             <Col sm="3">
               <div className="d-flex">
@@ -50,7 +50,7 @@ const HomeServices = () => {
               </div>
             </Col>
           ))}
-        </Row>
+        </Row> */}
       </Container>
     </div>
   );
