@@ -7,7 +7,7 @@ const ContactComponent = () => {
       <Container className="py-5">
         <Row className="flex-between">
           <Col sm="5">
-            <iframe
+            {/* <iframe
               width="100%"
               height="500"
               id="map-frame"
@@ -17,7 +17,11 @@ const ContactComponent = () => {
               scrolling="no"
               marginheight="0"
               marginwidth="0"
-            ></iframe>
+            ></iframe> */}
+            <img
+              src="https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1600"
+              className="w-100 "
+            />
           </Col>
           <Col sm="6">
             <p className="text-primary mb-0 fw-600 text-uppercase font-18">
@@ -97,9 +101,9 @@ const offices = [
     content: (
       <a
         className="text-dark opacity-75 text-decoration-none"
-        href="mailto:hr@rallytechnologies.llc"
+        href="mailto:info@rallytechnologies.net"
       >
-        hr@rallytechnologies.llc
+        info@rallytechnologies.net
       </a>
     ),
   },

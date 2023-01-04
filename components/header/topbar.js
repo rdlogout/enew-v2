@@ -10,8 +10,8 @@ const HeaderTopBar = () => {
     },
     {
       icon: <FiMail />,
-      value: "hr@rallytechnologies.llc",
-      href: "mailto:hr@rallytechnologies.llc",
+      value: "info@rallytechnologies.net",
+      href: "mailto:info@rallytechnologies.net",
       className: "flex-grow-1",
     },
     {
